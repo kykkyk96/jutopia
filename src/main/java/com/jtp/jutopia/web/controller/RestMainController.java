@@ -1,15 +1,15 @@
 package com.jtp.jutopia.web.controller;
 
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 
-@RestController
+@Controller
 public class RestMainController {
     
-    @GetMapping("/api/data")
+    @GetMapping("/index")
     public String test() {
-        return "hello";
+        return "index";
     }
     
 }
