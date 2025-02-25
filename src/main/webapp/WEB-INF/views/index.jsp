@@ -11,7 +11,7 @@
 </head>
 <body>
   <div id="main-container">
-    <div>asdasd</div>
+    <div></div>
   </div>
 </body>
 </html>
