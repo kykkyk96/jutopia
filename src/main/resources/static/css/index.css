@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+.category-nav{
+    border: 1px solid;
+    width: 100vw;
+    height: 60px;
+}
+
+.nav-flexBox{
+    border: 1px solid rebeccapurple;
+    padding: 0 120px;
+}
+
+.category-elements{
+    border: 1px solid red;
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.categoryel{
+    border: 1px solid;
+    text-align: center;
+    margin-left: 10px;
+}
+
+/* 배너 슬라이드 */
+
+.slider {
+    width: 100vw;
+    height: 400px;
+}
+.box {
+    background-color: black;
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* 주류 세부 카테고리 */
+
+.alchol-category{
+    border: 1px solid;
+    width: 100vw;
+}
+
+.alCategory-flexBox{
+    border: 1px solid red;
+    padding: 20px 300px;
+}
+.alCategory-elements{
+    border: 1px solid blue;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alCategory-element{
+    border: 2px solid;
+    width: 120px;
+    height: 120px;
+}
+
+/* 카테고리별 주류 소개 슬라이드 */
+.showAlchol-slider1{
+    border: 1px solid;
+    width: 100%;
+    padding: 20px 120px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.slider-box{
+    border: 1px solid green;
+    height: 700px;
+}
+
+.box-title{
+    border: 2px solid;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleBox{
+    display: flex;
+}
+
+.title-img{
+    width: 80px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.title-img > img {
+    width: 80px;
+    height: 80px;
+}
+
+.title-content{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title-content div {
+    width: 100%;
+}
