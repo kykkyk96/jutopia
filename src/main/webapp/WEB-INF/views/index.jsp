@@ -10,14 +10,14 @@
 <!-- css 초기화 -->
 <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
 <!-- 페이지 css -->
-<link rel="stylesheet" href="/css/common/common.css">
-<link rel="stylesheet" href="/css/index.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/common/common.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/index.css">
 <%-- 페이지js --%>
-<script defer src="/js/index.js"></script>
+<script defer src="${pageContext.request.contextPath}/js/index.js"></script>
 </head>
 <body>
 
-  <jsp:include page="/WEB-INF/views/common/Header.jsp"/>
+  <jsp:include page="${pageContext.request.contextPath}/WEB-INF/views/common/Header.jsp"/>
 
   <div id="main-container">
 
@@ -89,7 +89,7 @@
 
           <div class="titleBox">
             <div class="title-img" style="border: 1px solid pink;">
-              <img src="/img/new_icon.png">
+              <img src="${pageContext.request.contextPath}/img/new_icon.png">
             </div>
             <div class="title-content" style="border: 1px solid;">
               <div style="border: 1px solid;">
@@ -127,6 +127,6 @@
 
   </div> <!-- main-container -->
 
-  <jsp:include page="/WEB-INF/views/common/Footer.jsp"/>
+  <jsp:include page="${pageContext.request.contextPath}/WEB-INF/views/common/Footer.jsp"/>
 </body>
 </html>
