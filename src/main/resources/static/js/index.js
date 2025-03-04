@@ -96,3 +96,22 @@ const s1 = new Slider("#slider1", "H");
 setInterval(() => {
     s1.next();
 }, 3000)
+
+
+// 주류슬라이드 내용박스 스와이퍼
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView:4,
+    loop: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});

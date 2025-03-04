@@ -7,13 +7,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>주토피아</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 <!-- css 초기화 -->
 <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
 <!-- 페이지 css -->
 <link rel="stylesheet" href="${pageContext.request.contextPath}/css/common/common.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/css/index.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <%-- 페이지js --%>
 <script defer src="${pageContext.request.contextPath}/js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
 
@@ -105,13 +108,28 @@
             <p>더보기</p>
           </div>
         </div>
-      </div>
-  <%-- 주류슬라이드 내용 박스 --%>
-      <div class="box-detail">
+
+        <%-- 주류슬라이드 내용 박스 --%>
+        <div class="slider-box-1">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+            </div>
+          </div>
+            <div class="navigation-wrapper">
+              <!-- 화살표 -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+
 
       </div>
-
-    </div>
+    </div> <!-- showAlchol-slider1 -->
 
     <div class="showAlchol-slider2">
 
