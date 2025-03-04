@@ -1,4 +1,4 @@
-package com.jtp.jutopia.web.controller;
+package com.jtp.jutopia.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

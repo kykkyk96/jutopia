@@ -8,12 +8,12 @@
             <div class="flex-content">
                 <div class="content-lt">
                     <div class="logo-container">
-                        로고
+                        <a href="http://localhost:8080">로고</a>
                     </div>
                 </div>
                 <div class="content-rt">
                     <div class="login-container">
-                        <a class="" href="">로그인/회원가입</a>
+                        <a class="" href="<%=request.getContextPath()%>/member/login">로그인/회원가입</a>
                     </div>
                     <div class="shoppingCart-container">
                         장바구니
